@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Martel&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+
+nav {
+    .nav_box {
+        h3 {
+            font-family: 'Martel', serif;
+        }
+
+        .nav_elements {
+            ul {
+                font-family: 'Open Sans', sans-serif;
+            }
+        }
+    }
+
+    .legalpro {
+        h1 {
+            font-family: 'Martel', serif;
+        }
+
+        h4 {
+            font-family: 'Montserrat', sans-serif;
+        }
+
+        button {
+            font-family: 'Open Sans', sans-serif;
+        }
+
+    }
+
+    .navbarcard {
+        h3 {
+            font-family: 'Martel', serif;
+        }
+
+        p {
+            font-family: 'Open Sans', sans-serif;
+        }
+    }
+}
+main{
+    .every_client{
+        .every_written{
+            h2{
+                font-family: 'Martel', serif;
+            }
+            p{
+                font-family: 'Open Sans', sans-serif;
+            }
+        }
+        .every_cards{
+            .every_card_elments{
+                h2{
+                    font-family: 'Martel', serif;
+                }
+                h5{
+                    font-family: 'Martel', serif;
+                }
+            }
+        }
+    }
+    .practice_advice{
+        h5{
+            font-family: 'Martel', serif;
+        }
+        p{
+            font-family: 'Open Sans', sans-serif;
+        }
+        .practice_written{
+            h2{
+                font-family: 'Martel', serif;
+            }
+        }
+    }
+}

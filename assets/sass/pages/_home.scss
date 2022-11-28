@@ -1,0 +1,141 @@
+main {
+    width: 100%;
+    background-color: #FAFAFA;
+
+    .every_client {
+        height: 526px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+        .every_written {
+            width: 864px;
+            height: 100px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+
+            h2 {
+                font-size: 40px;
+                font-weight: 700;
+                line-height: 50px;
+                letter-spacing: 0.2px;
+                text-align: left;
+                color: #252B42;
+            }
+
+            p {
+                width: 468px;
+                height: 40px;
+                font-size: 14px;
+                font-weight: 400;
+                line-height: 20px;
+                letter-spacing: 0.2px;
+                text-align: center;
+                color: #737373;
+
+            }
+
+        }
+
+        .every_cards {
+            display: flex;
+            gap: 10px;
+
+            .every_card_elments {
+                width: 230px;
+                height: 202px;
+                background-color: #FFFFFF;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+
+                img {
+                    width: 48px;
+                    height: 48px;
+                }
+            }
+        }
+    }
+
+    .practice_advice {
+        height: 699px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+        .practice_written {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+
+            h2 {
+                font-size: 40px;
+                font-weight: 700;
+                line-height: 50px;
+                letter-spacing: 0.2px;
+                text-align: left;
+                color: #252B42;
+            }
+
+            p {
+                width: 431px;
+                height: 40px;
+                font-size: 14px;
+                font-weight: 400;
+                line-height: 20px;
+                letter-spacing: 0.2px;
+                text-align: center;
+                color: #737373;
+            }
+        }
+
+        .practice_cards {
+            width: 230px;
+            height: 341px;
+            display: flex;
+            justify-content: space-evenly;
+            align-items: center;
+            gap: 39.5px;
+
+            .practice_card_elements {
+                width: 230px;
+                background-color: #FFFFFF;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+
+                h5 {
+                    height: 48px;
+                    width: 81px;
+                    font-weight: 700px;
+                    font-size: 16px;
+                    line-height: 24px;
+                    letter-spacing: 0.1px;
+                }
+
+                p {
+                    padding-top: 20px;
+                    width: 145px;
+                    height: 80px;
+                    font-size: 15px;
+                    font-weight: 400px;
+                    line-height: 20px;
+                    letter-spacing: 0.2px;
+                    color: #737373;
+                }
+
+                img {
+                    width: 230px;
+                    height: 138px;
+                }
+            }
+        }
+    }
+}
